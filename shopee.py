@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import time
-user_account = "輸入您的蝦皮使用者帳號"
-user_password = "輸入您的蝦皮使用者密碼"
+user_account = "your actual account"
+user_password = "your actual password"
 options = Options()
 options.chrome_executable_path = "./chromedriver.exe"
 driver = webdriver.Chrome(options=options)
